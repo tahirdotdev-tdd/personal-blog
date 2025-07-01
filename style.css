@@ -1,0 +1,17 @@
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+  background: #fdfdfd;
+  color: #222;
+}
+a {
+  color: #3366cc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+#post-content {
+  margin-top: 2rem;
+  white-space: pre-wrap;
+}
