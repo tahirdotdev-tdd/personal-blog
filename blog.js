@@ -3,7 +3,8 @@
 const posts = [
   '2025-07-01-welcome.md',
   '2025-07-02-another-day.md',
-  'Introduction.md'
+  'Introduction.md',
+  'purpose.md'
 ];
 
 const postList = document.getElementById('post-list');
