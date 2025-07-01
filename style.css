@@ -1,17 +1,152 @@
+/* 
+  Modern CSS Makeover
+  --------------------
+  - CSS Variables for easy theme management
+  - Modern, clean layout
+  - Improved typography and spacing
+  - Subtle transitions and animations
+*/
+
+/* --- 1. Variables and Global Styles --- */
+
+:root {
+  --bg-color: #f9f9f9;
+  --text-color: #333;
+  --accent-color: #007acc;
+  --accent-color-light: #e6f3ff;
+  --border-color: #eee;
+  --card-bg-color: #ffffff;
+  --footer-text-color: #999;
+}
+
+/* A simple CSS reset for consistency */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  font-family: sans-serif;
+  font-family: 'Manrope', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
   padding: 2rem;
-  background: #fdfdfd;
-  color: #222;
 }
-a {
-  color: #3366cc;
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: var(--text-color);
+}
+
+footer {
+  text-align: center;
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border-color);
+  color: var(--footer-text-color);
+  font-size: 0.9rem;
+}
+
+
+/* --- 2. Post List Styling --- */
+
+/* The div containing each link in your JS */
+#post-list > div {
+  background-color: var(--card-bg-color);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+#post-list > div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+#post-list a {
+  display: block; /* Makes the whole area clickable */
+  padding: 1.5rem;
+  color: var(--text-color);
   text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  transition: color 0.2s ease;
 }
-a:hover {
-  text-decoration: underline;
+
+#post-list a:hover {
+  color: var(--accent-color);
 }
+
+
+/* --- 3. Post Content Styling --- */
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
 #post-content {
-  margin-top: 2rem;
-  white-space: pre-wrap;
+  /* This is the key to preserving your .md file's formatting */
+  white-space: pre-wrap; 
+  word-wrap: break-word; /* Prevents long lines from breaking the layout */
+  
+  background-color: var(--card-bg-color);
+  padding: 2rem;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  font-size: 1.1rem;
+  
+  /* The "dynamic" animation! */
+  animation: fadeIn 0.5s ease;
+}
+
+/* Styling the "Back" button created by your JS */
+#post-content button {
+  display: inline-block;
+  background-color: var(--accent-color-light);
+  color: var(--accent-color);
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin-bottom: 2rem;
+  font-family: 'Manrope', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+#post-content button:hover {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+/* --- 4. Responsive Design --- */
+@media (max-width: 600px) {
+  .container {
+    padding: 1rem;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  #post-list a {
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+
+  #post-content {
+    padding: 1.5rem;
+  }
 }

@@ -2,13 +2,33 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tahir's Journal</title>
+  
+  <!-- Added Google Fonts for a modern, readable look -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap" rel="stylesheet">
+  
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>🖋️ Tahir's Personal Dev Journal</h1>
-  <div id="post-list"></div>
-  <div id="post-content"></div>
+
+  <!-- A container to center content and manage width -->
+  <div class="container">
+    <header>
+      <h1>🖋️ Tahir's Personal Dev Journal</h1>
+    </header>
+    
+    <main>
+      <div id="post-list"></div>
+      <div id="post-content"></div>
+    </main>
+
+    <footer>
+      <p>© 2024 Tahir's Journal. Built with vanilla JS.</p>
+    </footer>
+  </div>
 
   <script src="blog.js"></script>
 </body>
