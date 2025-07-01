@@ -1,0 +1,13 @@
+----Introduction----
+Salam, this is Tahir. I wrote this for a day when you might read it, so you can come to know parts of me you haven’t seen yet—or maybe know me better. Honestly, this might say more about you than me. But I believe this is only for you. If someone else reads it, they might come to understand the truth behind my words.
+If you ever get tired of reading, please feel free to pause and return when you’re comfortable. Your comfort matters—yes, after my mother, of course! 😅 But after her, this is how I want to show you what you mean to me. Sometimes I wonder if I should call this an autobiography at all, because my intention is to write a living memoir that continues until I meet Allah.
+Before writing this here, I started on another platform. But when I learned on 16th May that you were excited and anxious to read it, I gave it a fresh start. This will be the final version I keep adding until my last breath. I want to share everything, or at least what matters most, so you can know me truly.
+This ongoing story might sometimes feel heavy but never meant to hurt you. My life has been very different from yours in many ways, and I thank Allah if He lets you read this and understand. I’m already grateful, but that would make me even more thankful.
+Instead of dragging this intro, I’ll just say I’ve tried to capture my experiences and feelings—those moments when I was alone with my silence. I’ve given that silence a voice here. These words are pieces of me I want to keep alive after I’m gone. Perhaps when time has done its work, this will end.
+Your respect for me would be highest if you granted this story a final ending. Happy reading.
+
+Ya Rabbi, let these words a light that reaches the heart I intended for, let these words a place of comfort for that beautiful heart. Let these words settle with love, sincerity and peace. If these pages are ever seen by her, let the truth be revealed to her. Let her feel the depth of my sincerity and respect. I don't know where she would be reading this, but my prayers are for her forever. 
+Ya Rabbi, make her among those who you love the most, make her among those whom you agreed at, make her among those whom you forgave, you bestowed them with your mercy.
+Ya Allah, please forgive her and me. I cannot see her in Jahannam on the day of judgement. Please Allah, forgive our sins that we even don't know.
+Ya Rahmaan, grant her the peace of Jannah, the companionship of our beloved mothers, Hazrat Ayesha (R.A), Hazrat Khadija (R.A) and beloved daughter, Hazrat Fatimah (R.A).
+A lot more I can say, please accept this and that Ya Rahmaan, you know what's in our hearts, Ameen Ya Rahmaan Ameen!
